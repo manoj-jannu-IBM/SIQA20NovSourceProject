@@ -3,6 +3,22 @@
 <IDataXMLCoder version="1.0">
   <record javaclass="com.wm.data.ISMemDataImpl">
     <array name="StreamingConfiguration" type="record" depth="1">
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="name">SIQA20NovSourceProject_project.siqa20novsource.streaming.connections:EmbeddedMessaging</value>
+        <value name="description">This is the default embedded messaging account</value>
+        <value name="package">SIQA20NovSourceProject</value>
+        <value name="type">Universal Messaging</value>
+        <value name="clientId">EM89e462730a6943058e5459b0a798a95d</value>
+        <value name="enabled">false</value>
+        <value name="other_properties"></value>
+        <value name="dynamic_properties">jms.username=admin
+jms.password=*****
+um.server.url=nhp://stage00-prod245692-um-0.int-prod245692.svc.cluster.local:9000/</value>
+        <value name="securityProtocol"></value>
+        <value name="truststoreAlias"></value>
+        <value name="keystoreAlias"></value>
+        <value name="keystoreKeyAlias"></value>
+      </record>
     </array>
   </record>
 </IDataXMLCoder>

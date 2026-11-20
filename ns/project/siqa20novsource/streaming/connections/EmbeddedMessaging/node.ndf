@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">connectorAccount</value>
+  <value name="node_subtype">streamingAccount</value>
+  <value name="node_nsName">project.siqa20novsource.streaming.connections:EmbeddedMessaging</value>
+  <value name="node_pkg">SIQA20NovSourceProject</value>
+  <value name="is_public">false</value>
+  <value name="assetId">SIQA20NovSourceProject.project.siqa20novsource.streaming.connections:EmbeddedMessaging</value>
+  <value name="connectionName">EmbeddedMessaging</value>
+  <value name="description">This is the default embedded messaging account</value>
+  <value name="providerURI">nhp://stage00-prod245692-um-0.int-prod245692.svc.cluster.local:9000/</value>
+  <value name="clientId">EM89e462730a6943058e5459b0a798a95d</value>
+  <value name="securityProtocol"></value>
+  <value name="keystoreAlias"></value>
+  <value name="keystoreKeyAlias"></value>
+  <value name="truststoreAlias"></value>
+  <value name="additionalProperties"></value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <value name="createdBy">Karthik.V10@ibm.com</value>
+    <value name="modifiedBy">Karthik.V10@ibm.com</value>
+    <value name="createdDate">2026-11-20T10:16:32.890309243Z</value>
+    <value name="lastModifiedDate">2026-11-20T10:16:32.890309243Z</value>
+  </record>
+</Values>
