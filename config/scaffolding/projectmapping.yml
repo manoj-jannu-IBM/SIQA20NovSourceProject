@@ -1,0 +1,10 @@
+version: "1.0"
+projectName: SIQA20NovSourceProject
+runtimes:
+- runtimeAlias: Cloud Designtime
+  assets:
+  - name: TimeoutTest
+    type: workflow
+    uid: fl5ca450c0fa1f4228a4e1f6dcabe87394
+    stepId: a0
+    reference: SIQA_TimeoutTest:delayfor180Sec
