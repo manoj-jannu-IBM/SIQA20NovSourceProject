@@ -46,11 +46,31 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Manoj.Jannu@ibm.com</value>
-    <value name="lastModifiedDate">2026-11-20T07:01:47.098392553Z</value>
+    <value name="lastModifiedDate">2026-11-20T07:04:51.944790500Z</value>
     <value name="displayName">TechnoPGPTest</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">String</value>
+          <value name="groupName">string</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">trim</value>
+          <value name="serviceName">pub.string:trim</value>
+          <value name="transformerSupport">true</value>
+        </record>
+        <number name="ui_step_index" type="Long">1</number>
+        <value name="nodePathNew">0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">1</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
         <value name="name">PGP Connector</value>
         <value name="itemType">APPS</value>
         <record name="operation" javaclass="com.wm.util.Values">
@@ -106,14 +126,14 @@
         </array>
         <null name="mapSet"/>
         <Boolean name="accountReferenceResolved">true</Boolean>
-        <number name="ui_step_index" type="Long">1</number>
-        <value name="nodePathNew">0</value>
-        <number name="nodeIndex" type="Long">0</number>
-        <number name="lineNumberForDebug" type="Long">1</number>
+        <number name="ui_step_index" type="Long">2</number>
+        <value name="nodePathNew">1</value>
+        <number name="nodeIndex" type="Long">1</number>
+        <number name="lineNumberForDebug" type="Long">2</number>
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <null name="outputMapSet"/>
       </record>
-      <record name="/1" javaclass="com.wm.util.Values">
+      <record name="/2" javaclass="com.wm.util.Values">
         <value name="name">PGP Connector</value>
         <value name="itemType">APPS</value>
         <record name="operation" javaclass="com.wm.util.Values">
@@ -176,7 +196,7 @@
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <null name="outputMapSet"/>
       </record>
-      <record name="/2" javaclass="com.wm.util.Values">
+      <record name="/3" javaclass="com.wm.util.Values">
         <value name="name">IF</value>
         <value name="itemType">CONTROLS</value>
         <record name="config" javaclass="com.wm.util.Values">
@@ -193,7 +213,7 @@
         <number name="nodeIndex" type="Long">2</number>
         <number name="lineNumberForDebug" type="Long">3</number>
       </record>
-      <record name="/2/0" javaclass="com.wm.util.Values">
+      <record name="/3/0" javaclass="com.wm.util.Values">
         <null name="name"/>
         <value name="itemType">SERVICES</value>
         <record name="serviceInfo" javaclass="com.wm.util.Values">
