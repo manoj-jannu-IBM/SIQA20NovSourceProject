@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Manoj.Jannu@ibm.com</value>
-    <value name="createdDate">1795159052591</value>
-    <value name="lastModifiedDate">2026-11-20T07:17:32.592083605Z</value>
+    <value name="lastModifiedBy">Manoj.Jannu@ibm.com</value>
+    <value name="lastModifiedDate">2026-11-20T07:18:22.741498808Z</value>
     <value name="displayName">SIQAExtendedPropFlow</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -71,12 +70,16 @@
         <value name="nodePathNew">0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
+        <record name="selectedRuntime" javaclass="com.wm.util.Values">
+          <value name="agentName">LOCAL</value>
+          <value name="displayName">LOCAL</value>
+          <value name="agentGroup">default</value>
+          <value name="executionPlaneType">local</value>
+        </record>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
-    </record>
-    <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="group">Default</value>
-      <value name="id">default</value>
-      <value name="name">Cloud Execution</value>
     </record>
     <value name="modifiedBy">Manoj.Jannu@ibm.com</value>
   </record>
