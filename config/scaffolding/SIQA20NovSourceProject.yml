@@ -43,6 +43,9 @@ packages:
   gitUrl: https://github.com/ParmelaDohling579
   gitUsername: manoj-jannu-IBM
   gitBranch: main
+- name: WmSalesforceProvider
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: supported
 services:
 - serviceName: project.siqa20novsource.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:SIQASFBasicAuthAccount
   packages:
