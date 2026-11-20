@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">connectorAccount</value>
+  <value name="node_subtype">httpAccount</value>
+  <value name="node_nsName">project.siqa20novsource.http.connections:TechnoHTTPAccount</value>
+  <value name="node_pkg">SIQA20NovSourceProject</value>
+  <value name="is_public">false</value>
+  <value name="assetId">SIQA20NovSourceProject.project.siqa20novsource.http.connections:TechnoHTTPAccount</value>
+  <value name="connectionName">TechnoHTTPAccount</value>
+  <value name="auth">none</value>
+  <null name="checkCRL"/>
+  <value name="cipherSuites"></value>
+  <value name="connectTimeout">300000</value>
+  <value name="followRedirect"></value>
+  <null name="hostNameVerification"/>
+  <value name="keepAliveTimeout">180</value>
+  <value name="keyAlias"></value>
+  <value name="keystoreAlias"></value>
+  <value name="maxKeepAliveConnections">0</value>
+  <value name="newSession">no</value>
+  <value name="pass"></value>
+  <value name="timeout">300000</value>
+  <value name="token"></value>
+  <value name="trustStore"></value>
+  <value name="url">https://www.google.com</value>
+  <value name="user"></value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <value name="createdBy">Karthik.V10@ibm.com</value>
+    <value name="modifiedBy">Karthik.V10@ibm.com</value>
+    <value name="createdDate">2026-11-20T07:33:58.620185217Z</value>
+    <value name="lastModifiedDate">2026-11-20T07:33:58.620185217Z</value>
+  </record>
+</Values>
