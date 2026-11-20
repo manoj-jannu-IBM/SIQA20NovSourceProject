@@ -55,6 +55,11 @@ packages:
   version: 10.3.0.0.34
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
+- name: SIQA_TimeoutTest
+  gitServerName: SIQAGitHubTest_shared
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: manoj-jannu-IBM
+  gitBranch: main
 services:
 - serviceName: project.siqa20novsource.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:SIQADBOracleDBoperation
   packages:
@@ -63,6 +68,8 @@ services:
   - name: DADA_ExtendedProperty
     version: "1.0"
   - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SIQA_TimeoutTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -88,6 +95,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: SIQA_TimeoutTest
+    version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -111,6 +120,8 @@ services:
   - name: DADA_ExtendedProperty
     version: "1.0"
   - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SIQA_TimeoutTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -136,6 +147,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: SIQA_TimeoutTest
+    version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -160,6 +173,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: SIQA_TimeoutTest
+    version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -183,6 +198,8 @@ services:
   - name: DADA_ExtendedProperty
     version: "1.0"
   - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SIQA_TimeoutTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -212,6 +229,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: SIQA_TimeoutTest
+    version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -235,6 +254,8 @@ services:
   - name: DADA_ExtendedProperty
     version: "1.0"
   - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SIQA_TimeoutTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -260,6 +281,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: SIQA_TimeoutTest
+    version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -284,6 +307,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: SIQA_TimeoutTest
+    version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -307,6 +332,8 @@ services:
   - name: DADA_ExtendedProperty
     version: "1.0"
   - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SIQA_TimeoutTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -336,6 +363,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: SIQA_TimeoutTest
+    version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -363,6 +392,8 @@ services:
   - name: DADA_ExtendedProperty
     version: "1.0"
   - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SIQA_TimeoutTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -412,6 +443,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: SIQA_TimeoutTest
+    version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -444,6 +477,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: SIQA_TimeoutTest
+    version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -471,6 +506,8 @@ services:
   - name: DADA_ExtendedProperty
     version: "1.0"
   - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SIQA_TimeoutTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -512,6 +549,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: SIQA_TimeoutTest
+    version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -544,6 +583,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: SIQA_TimeoutTest
+    version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmJDBCAdapter
@@ -567,6 +608,8 @@ services:
   - name: DADA_ExtendedProperty
     version: "1.0"
   - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SIQA_TimeoutTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
