@@ -6,6 +6,12 @@
     <value name="node_subtype">unknown</value>
     <value name="node_nsName">project.siqa20novsource.rad.DADAAPI_.resources.DADAAPI_resource_.docTypes:DADAAPI_resource</value>
     <value name="node_pkg">SIQA20NovSourceProject</value>
+    <record name="node_hints" javaclass="com.wm.util.Values">
+      <value name="createdBy">Manoj.Jannu@ibm.com</value>
+      <value name="modifiedBy">Manoj.Jannu@ibm.com</value>
+      <value name="createdDate">2026-11-20T07:55:27.546170375Z</value>
+      <value name="lastModifiedDate">2026-11-20T07:57:51.550038382Z</value>
+    </record>
     <value name="is_public">false</value>
     <value name="field_name">DADAAPI_resource</value>
     <value name="field_type">record</value>
@@ -16,11 +22,6 @@
     <array name="rec_fields" type="record" depth="1">
     </array>
     <value name="modifiable">false</value>
-    <record name="node_hints" javaclass="com.wm.util.Values">
-      <value name="createdBy">Manoj.Jannu@ibm.com</value>
-      <value name="modifiedBy">Manoj.Jannu@ibm.com</value>
-      <value name="createdDate">2026-11-20T07:55:27.546170375Z</value>
-      <value name="lastModifiedDate">2026-11-20T07:55:27.546170375Z</value>
-    </record>
+    <value name="updateRSD">true</value>
   </record>
 </Values>
