@@ -408,6 +408,10 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1223
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1223
 - serviceName: project.siqa20novsource.integrations:readPackageVariable
   packages:
   - name: SIQA20NovSourceProject
