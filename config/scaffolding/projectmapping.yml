@@ -8,3 +8,10 @@ runtimes:
     uid: fl5ca450c0fa1f4228a4e1f6dcabe87394
     stepId: a0
     reference: SIQA_TimeoutTest:delayfor180Sec
+- runtimeAlias: SIQA_2011
+  assets:
+  - name: GlobalVariable
+    type: REST
+    path: /readGV
+    action: POST
+    reference: fld_102798265_stage00.projects.fl466d7253615748fcb734b390729612f5.WmPackageServiceProvider.GB_1:readGlobalvariable
