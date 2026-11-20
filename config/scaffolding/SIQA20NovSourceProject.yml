@@ -47,6 +47,9 @@ packages:
   version: 12.0.0.0.25
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
+- name: WmSalesforceRESTProvider
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: supported
 services:
 - serviceName: project.siqa20novsource.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:SIQASFBasicAuthAccount
   packages:
@@ -70,6 +73,8 @@ services:
     version: "1.0"
   - name: DADA_SSLJMS
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.26
 - serviceName: project.siqa20novsource.WmSalesforceRESTProvider.com_webmethods_cloudstreams_salesforce_rest_v60.connections:SIQASFOAuthRestAccount
   packages:
   - name: SIQA20NovSourceProject
@@ -92,6 +97,8 @@ services:
     version: "1.0"
   - name: DADA_SSLJMS
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.26
 - serviceName: project.siqa20novsource.integrations:SFBasicAuthSoap
   packages:
   - name: SIQA20NovSourceProject
@@ -114,6 +121,8 @@ services:
     version: "1.0"
   - name: DADA_SSLJMS
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.26
 - serviceName: project.siqa20novsource.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.operations.actions:SIQASFBasicAuthAction
   packages:
   - name: SIQA20NovSourceProject
@@ -136,6 +145,8 @@ services:
     version: "1.0"
   - name: DADA_SSLJMS
     version: "1.0"
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.26
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbcfunc.SAPTxStore.failFastMode: false
