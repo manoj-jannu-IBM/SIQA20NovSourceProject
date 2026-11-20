@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Manoj.Jannu@ibm.com</value>
-    <value name="lastModifiedDate">2026-11-20T06:58:12.333061888Z</value>
+    <value name="lastModifiedDate">2026-11-20T06:59:45.067423070Z</value>
     <value name="displayName">TechnoPGPTest</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -110,6 +110,69 @@
         <value name="nodePathNew">0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
+        <null name="outputMapSet"/>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <value name="name">PGP Connector</value>
+        <value name="itemType">APPS</value>
+        <record name="operation" javaclass="com.wm.util.Values">
+          <value name="connectorID">pgpconnector</value>
+          <value name="description">decryptAndVerify</value>
+          <value name="isCustom">false</value>
+          <value name="isDynamicOperation">false</value>
+          <value name="isImportedOperation">false</value>
+          <value name="nsName">pub.security:decryptAndVerify</value>
+          <value name="operationName">decryptAndVerify</value>
+          <value name="operationType">actions</value>
+          <null name="packageName"/>
+          <value name="projectName">project.siqa20novsource</value>
+        </record>
+        <value name="id">pgpconnector</value>
+        <value name="providerName">TechnologyConnector</value>
+        <value name="allowCustomOperations">false</value>
+        <value name="appType">predefined</value>
+        <Boolean name="hasAccount">true</Boolean>
+        <record name="connection" javaclass="com.wm.util.Values">
+          <value name="connectionName">SIQATechnoPGPAccount</value>
+          <value name="connectionType">pgp</value>
+          <null name="description"/>
+        </record>
+        <value name="connectionNSName">project.siqa20novsource.pgp.connections:SIQATechnoPGPAccount</value>
+        <value name="connectionType">pgp</value>
+        <value name="type">pgp</value>
+        <value name="version">1</value>
+        <null name="packageName"/>
+        <value name="description">Encrypt, decrypt, sign, and verify data with PGP</value>
+        <null name="extensionName"/>
+        <null name="certified"/>
+        <null name="registry"/>
+        <null name="category"/>
+        <null name="registeredDate"/>
+        <Boolean name="installed">true</Boolean>
+        <Boolean name="latest">false</Boolean>
+        <Boolean name="allowDeleteApplication">false</Boolean>
+        <Boolean name="allowUpdateApplication">false</Boolean>
+        <Boolean name="listenerEnabled">false</Boolean>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <array name="map" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="transformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="inputMap" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
+        <null name="mapSet"/>
+        <Boolean name="accountReferenceResolved">true</Boolean>
+        <number name="ui_step_index" type="Long">2</number>
+        <value name="nodePathNew">1</value>
+        <number name="nodeIndex" type="Long">1</number>
+        <number name="lineNumberForDebug" type="Long">2</number>
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <null name="outputMapSet"/>
       </record>
