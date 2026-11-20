@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FLOW VERSION="3.2" CLEANUP="false">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<INVOKE NAME="Invoke predefined:com.webmethods.cloudstreams.salesforce.rest_v60" TIMEOUT="" SERVICE="wm.com_webmethods_cloudstreams_salesforce_rest_v60.operations:GetListofOrganizationLimits" VALIDATE-IN="" VALIDATE-OUT="">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAP NAME="Invoke predefined:WmSalesforceRESTProvider" MODE="INPUT">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/$connectionAlias;1;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <value name="xml">project.siqa20novsource.WmSalesforceRESTProvider.com_webmethods_cloudstreams_salesforce_rest_v60.connections:SIQASFOAuthRestAccount</value>
+</Values>
+</DATA>
+</MAPSET>
+</MAP>
+</INVOKE>
+</FLOW>
