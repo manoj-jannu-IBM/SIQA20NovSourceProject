@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <services>
+    <cloudstreamsCollectionKeys serviceName="WmCloudStreams.RestVS">
+        <servicesKeys>
+            <keyDetails collectionKey="project.siqa20novsource.WmSalesforceRESTProvider.com_webmethods_cloudstreams_salesforce_rest_v60.operations.actions:SIQASFOAuthRestAction" connectorServiceName="project.siqa20novsource.WmSalesforceRESTProvider.com_webmethods_cloudstreams_salesforce_rest_v60.operations.actions:SIQASFOAuthRestAction"/>
+        </servicesKeys>
+    </cloudstreamsCollectionKeys>
     <cloudstreamsCollectionKeys serviceName="WmCloudStreams.SoapVS">
         <servicesKeys>
             <keyDetails collectionKey="project.siqa20novsource.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.operations.actions:SIQASFBasicAuthAction" connectorServiceName="project.siqa20novsource.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.operations.actions:SIQASFBasicAuthAction"/>
